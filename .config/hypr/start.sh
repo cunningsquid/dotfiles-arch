@@ -3,4 +3,5 @@
 nm-applet --indicator &
 waybar &
 dunst &
+flameshot &
 variety

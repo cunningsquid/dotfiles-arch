@@ -14,12 +14,12 @@ $ makepkg -si
 ```
 
 then you need to install the following packages
-git, stow, tree, fastfetch, firefox, hyprland, kitty, i3, rofi, waybar, dunst
+git, stow, tree, fastfetch, firefox, hyprland, kitty, i3, rofi, waybar, dunst, flameshot
 
 you can install all these packages with the following command
 
 ```
-$ yay -S git stow tree fastfetch firefox hyprland i3 rofi kitty waybar dunst
+$ yay -S git stow tree fastfetch firefox hyprland i3 rofi kitty waybar dunst flameshot
 ```
 
 after that you will want to cd into the dotfiels directory
