@@ -7,36 +7,22 @@
 	"modules-left": [
 		"custom/left-arrow-dark",
 		"clock#1",
-		"custom/right-arrow-dark",
-		"custom/left-arrow-dark",
 		"clock#2",
-		"custom/right-arrow-dark",
-		"custom/left-arrow-dark",
 		"clock#3",
 		"custom/right-arrow-dark"
 	],
 	"modules-center": [
 		"custom/left-arrow-dark",
 		"hyprland/workspaces",
-		"custom/right-arrow-dark",
-		"custom/left-arrow-dark",
 		"hyprland/window",
 		"custom/right-arrow-dark"
 	],
 	"modules-right": [
 		"custom/left-arrow-dark",
 		"pulseaudio",
-		"custom/right-arrow-dark",
-		"custom/left-arrow-dark",
 		"memory",
-		"custom/right-arrow-dark",
-		"custom/left-arrow-dark",
 		"cpu",
-		"custom/right-arrow-dark",
-		"custom/left-arrow-dark",
 		"disk",
-		"custom/right-arrow-dark",
-		"custom/left-arrow-dark",
 		"tray",
 		"custom/right-arrow-dark"
 	],
