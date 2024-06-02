@@ -22,6 +22,7 @@
 		"pulseaudio",
 		"memory",
 		"cpu",
+    //"temp",
 		"disk",
 		"tray",
 		"custom/right-arrow-dark"
@@ -85,17 +86,37 @@
 	},
 	"memory": {
 		"interval": 5,
-		"format": "Mem {}%"
+		"format": "{icon} Mem {}%",
+    "format-icons": {
+      "default": [
+        "󰍛"
+      ]
+    }
 	},
 	"cpu": {
 		"interval": 5,
-		"format": "CPU {usage:2}%"
+		"format": "{icon} CPU {usage:2}%",
+    "format-icons": {
+      "default": [
+        "󰻠"
+      ]
+    }
 	},
-	"temp": {
-		"thermal-zone": 1,
-		"interval": 5,
-		"format": "TEMP {temperatureC}°C"
-	},
+	//"temp": {
+		//"thermal-zone": 1,
+    //"hwmon-path": "/sys/devices/platform/coretemp.0/hwmon/",
+    //"input-filename": "hwmon1/temp5_input",
+		//"interval": 5,
+    //"critical-threshold": 62,
+		//"format": "{icon} TEMP {temperatureC}°C",
+    //"format-icons": {
+      //"default": [
+        //"",
+        //"",
+        //""
+      //]
+    //}
+	//},
 	"battery": {
 		"states": {
 			"good": 75,
@@ -113,10 +134,10 @@
 	},
 	"disk": {
 		"interval": 5,
-		"format": "Disk {percentage_used:2}%",
+		"format": " Disk {percentage_used:2}%",
 		"path": "/"
 	},
 	"tray": {
-		"icon-size": 20
+		"icon-size": 25
 	}
 }
