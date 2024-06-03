@@ -23,6 +23,7 @@
 		"memory",
 		"cpu",
     //"temp",
+    "custom/gpu-usage",
 		"disk",
 		"tray",
 		"custom/right-arrow-dark"
@@ -117,6 +118,12 @@
       //]
     //}
 	//},
+  "custom/gpu-usage": {
+    "format": "{icon} GPU {}",
+    "exec": "gpu-usage-waybar",
+    "return-type": "json",
+    "format-icons": "󰾲",
+  },
 	"battery": {
 		"states": {
 			"good": 75,
